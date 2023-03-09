@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sortable Movies</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>Sortable Movies</h1>
+
+        <div class="sort-div">
+            <!-- <img id="main-movie" src="images/2001-a-space-odyssey.jpg"> -->
+
+            <select id="sort-menu">
+                <option value="choose">Sort by..</option>
+                <option value="name" selected>By Name..</option>
+                <option value="year">By Year..</option>
+                <option value="mins">By Duration..</option>
+            </select>
+
+            <input type="checkbox" id="desc" value="desc">
+            <label for="desc">Descending</label>
+
+        </div>
+
+        <div class="movie-holder"></div>
+
+    </div>
+
+    <script src="js/movies.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
