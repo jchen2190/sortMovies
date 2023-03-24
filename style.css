@@ -3,16 +3,14 @@ body {
     font-family: sans-serif;
     text-align: center;
 }
-.movie-holder {
-    background-color:#000;
-    height: 695px;
-    overflow-y: auto;
-}
 h1 {
     font-size: 1.33rem;
     display: inline-block;
     margin-right: 40px;
     margin-top: 0;
+}
+.sort-div {
+    padding-bottom: 20px;
 }
 .divvy img {
     width: 170px;
@@ -21,8 +19,7 @@ h1 {
     cursor: pointer;
 }
 .container {
-    height: 89vh;
-    width:860px;
+    width: 860px;
     padding: 20px;
     margin: 20px auto;
     border-radius: 10px;
@@ -39,9 +36,6 @@ h1 {
     font-size: 0.8rem;
     letter-spacing: 1px;
     line-height: 1.5rem;
-}
-.sort-div {
-    padding-bottom: 20px;
 }
 select {
     margin-right: 30px;
@@ -76,4 +70,10 @@ input {
     display: block;
     cursor: pointer;
     margin-bottom: 20px;
+}
+.movie-holder {
+    background-color:#000;
+    border-radius: 5px;
+    height: 695px;
+    overflow-y: auto;
 }
